@@ -39,14 +39,17 @@
     - How to model it
         - different comp vectors over the tree
         - ML or Bayesian MCMC
+    - So the way to illustrate the problem with the symmetry tests is to get some data that passes them but has CTH and some data that doesn't pass them but has CTH
 
 - Exchange rate tree-heterogeneity (ERTH) is not well known
-    - It is assumed (**Is it? -- need to check and confirm it or correct this statement**) that internal symmetry measures it
+    - It is assumed that internal symmetry works as a good proxy for it as it detects violation of global time-homogeneity
+        - but I think that may have other causes too, e.g. violations of local time-homogeneity
     - It certainly measures it sometimes (need proof, ie results here)
         - but as with CTH it is possible to have true ERTH that is undetectable by internal symm test (Prove it)
         - it might be interesting to look into this more (ie do original research on this, not reading about it)
     - Again as with CTH we can model it to measure it 
     - ERTH can be modelled by assigning different rate matrices to different nodes on a tree via NDRH.
+    - As for CTH, the way to prove the problem with the symmetry tests is to show that data proven to have ERTH via modelling may or may not pass the test
 
 ### Phylogenetic attraction by ERTH
 
@@ -54,12 +57,8 @@
     - compositional attraction
     - It can be shown that ERTH can also cause attraction in simulated data (cite me, but Prove it) 
     - It is unknown if this is a problem in real data
-
-
-### Not sure where this fits in; please organize it
-
-- To illustrate the problem with using simple data tests for CTH and ERTH, heterogeneous data can be simulated and then both tested and modelled. Examples will be provided for cases in which the test detects the heterogeneity and in which it doesn't (while it's present in both cases, as evidenced by modelling). This will be done both for CTH and ERTH. A case where both phenomena are present but symmetry tests detect neither will also be provided to evidence the need to always test for presence of these phenomena by modelling. Include figure(s) here (but what kind?), also a table for the numerical results.
-- To include ERTH in phylogenetic models is important because if its presence is unaccounted for, it could bias inferences. But how much? This can be tested by analysing the same data with a rate tree-homogeneous model and comparing the trees. Or rather, take the true tree and see what likelihoods there are for the data under the two different models? I think the best idea would be to take a simple tree, simulate data on it under different scenarios of rate heterogenety over the tree and then produce a tree with that data using a rate tree-homogeneous model (analogous to the github chapter). But how to produce the "tree based on composition" analogue, i.e. the tree based on exchange rates?
+    - So get some real data that when modelled with ERTH gives a different tree
+    - Should there be quantitative comparison of the trees?
 
 ### Detecting ERTH in real datasets
 - ??? 
