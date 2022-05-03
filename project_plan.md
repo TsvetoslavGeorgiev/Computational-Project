@@ -42,16 +42,14 @@
     - So the way to illustrate the problem with the symmetry tests is to get some data that passes them but has CTH and some data that doesn't pass them but has CTH
 
 - Exchange rate tree-heterogeneity (ERTH) is not well known
-    - It is assumed (**Is it? -- need to check and confirm it or correct this statement**) that internal symmetry measures it
-    - It is assumed that internal symmetry works as a good proxy for it as it detects violation of global time-homogeneity
-        - Who assumes it?  Literature search (by TG) is needed here.
-        - but I think that may have other causes too, e.g. violations of local time-homogeneity
-    - It certainly measures it sometimes (need proof, ie results here)
+    - Internal symmetry does not measure it specifically
+        - it measures "homogeneity" or lack thereof
+    - Internal symm test certainly measures ERTH sometimes (need proof, ie results here)
         - but as with CTH it is possible to have true ERTH that is undetectable by internal symm test (Prove it)
         - it might be interesting to look into this more (ie do original research on this, not reading about it)
     - Again as with CTH we can model it to measure it 
     - ERTH can be modelled by assigning different rate matrices to different nodes on a tree via NDRH.
-    - As for CTH, the way to prove the problem with the symmetry tests is to show that data proven to have ERTH via modelling may or may not pass the test
+    - As for CTH, the way to demo the problem with the symmetry tests is to show that data proven to have ERTH via modelling may or may not pass the test
 
 ### Phylogenetic attraction by ERTH
 
