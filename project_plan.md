@@ -42,7 +42,9 @@
     - So the way to illustrate the problem with the symmetry tests is to get some data that passes them but has CTH and some data that doesn't pass them but has CTH
 
 - Exchange rate tree-heterogeneity (ERTH) is not well known
+    - It is assumed (**Is it? -- need to check and confirm it or correct this statement**) that internal symmetry measures it
     - It is assumed that internal symmetry works as a good proxy for it as it detects violation of global time-homogeneity
+        - Who assumes it?  Literature search (by TG) is needed here.
         - but I think that may have other causes too, e.g. violations of local time-homogeneity
     - It certainly measures it sometimes (need proof, ie results here)
         - but as with CTH it is possible to have true ERTH that is undetectable by internal symm test (Prove it)
