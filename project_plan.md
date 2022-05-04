@@ -1,6 +1,6 @@
 # Studying Exchange Rate Tree-Heterogeneity - Project Plan
 
-- Comment: where it says "Figure" or "Prove it" below that means it need some actual results to show the idea.
+- Comment: where it says "Figure" or "Prove it" or "demo it" below that means it need some actual results to show the idea.
     - might need a Figure, a compound figure, one or more tables, and possibly some further explanation
         - or a big caption
     - Each would be a section or subsection of the results
@@ -55,16 +55,19 @@
 
 - It is well appreciated that CTH can cause problems with tree reconstruction
     - compositional attraction
-    - It can be shown that ERTH can also cause attraction in simulated data (cite me, but Prove it) 
-    - It is unknown if this is a problem in real data
-    - So get some real data that when modelled with ERTH gives a different tree
-    - Should there be quantitative comparison of the trees?
+    - It can be shown that ERTH can also cause attraction (cite Peter)
+        - use simulated data (demo it, Figure) 
+    
 
 ### Detecting ERTH in real datasets
 - ??? 
 - Use DNA alignments, as they would be faster
 - The alignments need to be small, both in number of taxa and number of sites
-- analyse with iqtree, p4 with gtr, ndch2, ndrh2
+- analyse with iqtree, p4 with gtr, ndch2, ndrh
+- It is unknown if attraction due to ERTH is a problem in real data
+    - So get some real data that when modelled with ERTH gives a different tree
+    - Should there be quantitative comparison of the trees? -- Peter thinks not needed
+
 - **Hopefully you have started analysing real datasets by now, if only with iqtree or mrbayes**
 
 
