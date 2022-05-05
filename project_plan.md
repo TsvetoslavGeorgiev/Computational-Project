@@ -15,9 +15,11 @@
 
 - Make an intro into model-based phylogenetic inference and how model violations influence it.
     - Mostly citations
-- Go more specifically into ERTH and CTH, explain how they are not taken into account in the most widely-used models. Focus on ERTH.
-- Talk about total, marginal and internal symmetry and how they're connected to the above two.
-- Explain sources of phylogenetic attraction (long branch, among-site comp het, compositional, and (new) exchange rate) 
+    - Explain sources of phylogenetic attraction (long branch, among-site comp het, compositional, and (new) exchange rate) 
+- Go more specifically into CTH and ERTH, explain how they are not taken into account in the most widely-used models 
+- Talk about total, marginal and internal symmetry
+    - marginal symmetry is a good measure of CTH
+    - it is not clear whether internal symmetry is a good measure of ERTH
 - Explain how this study will address these problems.
 
 
@@ -34,12 +36,13 @@
 - It is possible to have CTH that passes these tests (Figure)
     - That means it is possible to have true CTH, but undetected by these tests (Prove it)
         - these may be rare pathological cases 
+        - generally marginal symm is a good way to show CTH
     - However, we can *model* CTH, and show that it exists ("detect" it) that way
     - Like choosing a best model, JC vs GTR, we "detect" GTR-ness by modelling it
     - How to model it
         - different comp vectors over the tree
         - ML or Bayesian MCMC
-    - So the way to illustrate the problem with the symmetry tests is to get some data that passes them but has CTH and some data that doesn't pass them but has CTH
+    - So the way to illustrate the problem with the symmetry tests is to get some data that passes them but has CTH and some data that doesn't pass them but has CTH (need some Results here)
 
 - Exchange rate tree-heterogeneity (ERTH) is not well known
     - Internal symmetry does not measure it specifically
